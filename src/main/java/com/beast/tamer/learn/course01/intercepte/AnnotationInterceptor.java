@@ -1,14 +1,12 @@
 package com.beast.tamer.learn.course01.intercepte;
 
 import com.beast.tamer.learn.course01.annotation.FieldName;
-import org.springframework.core.MethodParameter;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Field;
-import java.lang.reflect.Member;
 
 /**
  * @author a small asshole
